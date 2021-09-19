@@ -1,0 +1,6 @@
+.footer{
+  height: var(--footer-height);
+  position: relative;
+  z-index: var(--z-index-footer);
+  background-color: var(--dark);
+}

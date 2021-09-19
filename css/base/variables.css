@@ -1,0 +1,39 @@
+:root {
+    /* colors */
+    --black: #000;
+    --dark: #252525;
+    --red: rgb(226, 8, 8);
+    --dark-transparent: #252525ee;
+    --white: #fff;
+    --light: #eee;
+    --light-transparent: #eeee;
+    --shadow-color: #0005;
+    --background: rgb(204, 199, 180);
+    --services-background: cornsilk;
+    --form-submit-button: #5a7233;
+    --form-submit-button-hover: #3e4f24;
+    --form-button-border-bottom: #3e4f24;
+    --form-textarea: #d0dfe8;
+
+    /* typography */
+    --main-font:'Open Sans', sans-serif;;
+    --services-font: 'Lato', sans-serif;
+    --font-color-light: var(--light); 
+    --font-color-dark: var(--dark);
+    --font-color-red: var(--red); 
+
+    /* components */
+    --navbar-height: 56px;
+    --footer-height: 56px;
+
+    /* shadows */
+    --shadow-sm: 0 1px 2px 1px var(--shadow-color);
+    --shadow: 0 2px 4px 2px var(--shadow-color);
+    --shadow-xl: 0 3px 6px 3px var(--shadow-color);
+
+    /* z-index */
+    --z-index-navbar: 1200;
+    --z-index-sidebar: 1000;
+    --z-index-sidebar-toggler: 1100;
+    --z-index-footer: 1050;
+}
