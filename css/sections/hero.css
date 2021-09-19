@@ -1,0 +1,95 @@
+@media screen and (max-width: 576px) {
+  .hero {
+    position: relative;
+
+  }
+  .hero__content {
+    position: relative;
+  }
+  .hero__text {
+    position: absolute;
+    font-family: var(--main-font);
+    color: var(--red);
+  }
+  .hero__text > h1{
+    font-family: var(--main-font);
+    font-weight: 800;
+  }
+  .hero__text > p{
+    font-family: var(--main-font);
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 576px) {
+  .hero {
+    position: relative;
+    margin-bottom: var(--navbar-height);
+  }
+  .hero__content {
+    position: relative;
+  }
+  .hero__text {
+    position: absolute;
+    font-family: var(--main-font);
+    color: var(--red);
+  }
+  .hero__image {
+    height: 600px;
+  }
+  .hero__text > h1{
+    font-family: var(--main-font);
+    font-weight: 800;
+  }
+  .hero__text > p{
+    font-family: var(--main-font);
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 576px) {
+  .hero {
+    position: relative;
+  }
+  .hero__content {
+    position: relative;
+  }
+  .hero__text {
+    position: absolute;
+    font-family: var(--main-font);
+    color: var(--red);
+  }
+  .hero__image {
+    height: 600px;
+  }
+  .hero__text > h1{
+    font-family: var(--main-font);
+    font-weight: 800;
+  }
+  .hero__text > p{
+    font-family: var(--main-font);
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    position: relative;
+  }
+  .hero__content {
+    position: relative;
+  }
+  .hero__text {
+    position: absolute;
+    font-family: var(--main-font);
+    color: var(--red);
+  }
+  .hero__image {
+    height: 650px;
+  }
+  .hero__text > h1{
+    font-family: var(--main-font);
+    font-weight: 800;
+  }
+  .hero__text > p{
+    font-family: var(--main-font);
+    font-weight: 600;
+  }
+}
